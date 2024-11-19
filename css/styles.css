@@ -1,13 +1,46 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color:whitesmoke;
   margin: 0;
   padding: 20px;
 }
+.poder {display: grid;
+  grid-template-columns: repeat(4, 1fr);}
 
 h1 {
   text-align: center;
   color: #333;
 }
-
-
+.css{
+  width: 412px;
+  border: 1px solid gray;
+  align-items: center;
+  border-radius: 2px;
+  margin: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+ul{flex-direction: column;}
+.imagen{
+  width: 100px;
+  height: 100px;}
+.definitivo{
+  padding: 0px;
+  list-style-type: none;
+  border: 1px solid gray;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;}
+.total{
+  padding: 0px;
+  list-style-type: none;
+  margin: 15px;}
+.contenedor{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 15px;
+  gap: 10px;}
+  .general{
+  background-color:white;}
